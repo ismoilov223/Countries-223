@@ -1,0 +1,29 @@
+:root {
+  --clr-bg-dark: #202c36; /* gray-800 */
+  --clr-bg-dark-second: #2b3844; /* gray-800 */
+  --clr-bg-light: #f2f2f2; /* zinc-50 */
+  --clr-bg-light-second: #fff; /* zinc-50 */
+
+  --clr-text-dark: #fff; /* gray-200 */
+  --clr-text-light: #111517; /* zinc-50 */
+}
+
+.dark {
+  background-color: var(--clr-bg-dark);
+  color: var(--clr-text-dark);
+}
+.dark-second {
+  background-color: var(--clr-bg-dark-second) !important;
+  color: var(--clr-text-dark) !important;
+
+}
+.light-second {
+  background-color: var(--clr-bg-light-second) !important;
+  color: var(--clr-text-light) !important;
+
+}
+
+.light {
+  background-color: var(--clr-bg-light);
+  color: var(--clr-text-light);
+}
